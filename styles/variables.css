@@ -1,3 +1,7 @@
 :root {
-    
+    --color-white: #fff;
+    --color-green: #017F67;
+    --color-dark-green: #245852;
+
+    --font-color-black: #292929;
 }
