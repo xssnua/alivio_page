@@ -44,6 +44,38 @@
         </div>
     </header>
 
+    <div class="mobile-navigation" aria-label="mobile navigation">
+        <label for="menu-loggler-id" aria-label="open mobile navigation menu">
+            <svg class="mobile-navigation__burger" aria-label="burger icon">
+                <use href="assets/sprites.svg#burger-icon"></use>
+            </svg>
+        </label>
+        <input type="checkbox" name="toggler" id="menu-loggler-id" class="mobile-navigation__toggler">
+
+        <nav class="mobile-navigation__menu" aria-label="mobile navigation menu">
+            <ul class="mobile-navigation__list" aria-label="mobile navigation list">
+                <li class="mobile-navigation__item">
+                    <a href="#about-id" class="mobile-navigation__link">Why Alivio</a>
+                </li>
+                <li class="header__nav-item">
+                    <a href="#success-id" class="mobile-navigation__link">Solutions</a>
+                </li>
+                <li class="header__nav-item">
+                    <a href="#product-id" class="mobile-navigation__link">Community</a>
+                        </li>
+                <li class="header__nav-item">
+                    <a href="#pricing-id" class="mobile-navigation__link">Pricing</a>
+                </li>
+            </ul>
+            
+            <label for="menu-loggler-id" class="mobile-navigation__close" aria-label="close mobile navigation menu">
+                <svg class="mobile-navigation__cross" aria-label="cross icon">
+                    <use href="assets/sprites.svg#cross-icon"></use>
+                </svg>
+            </label>
+        </nav>
+    </div>
+
     <main class="main">
         <section class="hero" aria-label="hero section" id="hero-id">
             <div class="container">
@@ -92,7 +124,6 @@
                         <h3 class="success__title">Let's hear about Kayla's success story</h3>
                         <p class="success__desc">See how well Alivio works in a real customer's life. </p>
                         <button class="btn">Let's get started</button>
-                        </p>
                     </div>
                     <div class="success__content-video">
                         <img src="assets/webp/video_cover.webp" class="success__cover" alt="video cover img">
